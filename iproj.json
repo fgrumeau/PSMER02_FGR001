@@ -1,0 +1,20 @@
+{
+    "description": "Arcad Demo",
+    "version": "0.0.1",
+    "includePath": [
+        "FGR001_SRC/QPROTOSRC"
+    ],
+    "repository": "git@github.com:fgrumeau/PSMER02_FGR001.git",
+    "objlib": "&verlibfgr001",
+    "curlib": "*CRTDFT",
+    "extensions": {
+        "arcad": {
+            "code": "FGR001",
+            "libraryPrefix": "FGR",
+            "iasp": "*SYSBAS",
+            "validated": true
+        }
+    },
+    "buildCommand": "elias compile {branch}",
+    "compileCommand": "elias compile {branch} -f {filename}"
+}
